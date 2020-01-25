@@ -4,7 +4,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (needs working, not busy /dev/audio!)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Video
 %define		pnam	DVDRip
 Summary:	Video::DVDRip Perl module
